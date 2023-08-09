@@ -17,7 +17,7 @@ This repository contains the Jupyter notebooks to recreate the analysis in our m
 
 Additionally, `data/` contains fasta files with 200bp tRNA upstream sequences for housekeeping, repressed and inactive tRNAs, which are required as input for tRNet model training and validation. These classes were defined using significant BRF1 peaks called by [MACS2](https://github.com/macs3-project/MACS) overlapping tRNA genes in human induced pluripotent stem cells (hiPSC), neural progenitors (NPC), neurons and cardiomyocyte (CM) cells. Housekeeping tRNAs have peaks in all 4 cells, repressed tRNAs are inactivated during differentiation, while inactive tRNAs are never bound by BRF1 and do not produce mature tRNA in any cell type.
 
-The model can conceivable be used on any ChIP-seq experiment for any transcription factor (TF) in multiple conditions/treatments/cell-contexts in order to predict some pre-defined activity or binding of that TF to different genomic loci, and further, to analyse the motifs influencing this differential occupancy.
+The model can conceivably be used on any ChIP-seq experiment for any transcription factor (TF) in multiple conditions/treatments/cell-contexts in order to predict some pre-defined activity or binding of that TF to different genomic loci, and further, to analyse the motifs influencing this differential occupancy.
 
 ## Usage
 
